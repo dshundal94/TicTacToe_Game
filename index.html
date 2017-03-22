@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  
+  <title>Tic-Tac-Toe</title>
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body id = 'home'> 
+  <header>
+    <!-- Begin Title -->
+    <div id = "top">
+    <h1 id = "title">Tic-Tac-Toe</h1>
+    <a rel="nofollow" rel="noreferrer"id = "logo" href = "https://www.linkedin.com/in/damanjithundal/" target = "_blank">by Damanjit Hundal</a>
+    </div>
+    <!-- end title -->
+    
+    <!-- begin user choice -->
+    <div id = 'choose'>
+      <div id = 'user_choice'>Choose A Character</div>
+      <div id = 'upper'>
+        <div id = 'forX'>
+          <button id = "chooseX" value= 'X'>X</button>
+        </div>
+        <div id = 'forO'>
+          <button id = "chooseO" value= 'O'>O</button>
+        </div>
+      </div>
+    </div>
+    <!-- end user choice -->
+    
+    <div id = "game" class = 'hidden'>
+      <div id="move">Your Move</div>
+      <table id = 'tic-tac-toe'>
+          <tr>
+              <td><button id="m00"></button></td>
+              <td><button id="m01"></button></td>
+              <td><button id="m02"></button></td>
+          </tr>
+          <tr>
+              <td><button id="m10"></button></td>
+              <td><button id="m11"></button></td>
+              <td><button id="m12"></button></td>
+          </tr>
+          <tr>
+              <td><button id="m20"></button></td>
+              <td><button id="m21"></button></td>
+              <td><button id="m22"></button></td>
+          </tr>
+      </table>
+      <button id="restart">Reset<button/>
+    </div>
+  </header>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
